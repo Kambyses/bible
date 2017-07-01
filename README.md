@@ -85,12 +85,6 @@ docker inspect apache-php
 # Port:       HostConfig -> PortBindings -> HostPort
 ```
 
-* What's my web port number?
-```
-# You defined it in docker run command
-docker run -d -p 80:8080 --name apache-php apache-php
-```
-
 * What's my database address, port, database name, username and password?
 ```
 # Inspect postgresql
