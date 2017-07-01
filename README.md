@@ -18,13 +18,18 @@ Bible from http://www.gasl.org/refbib/Bible_King_James_Version.pdf
 
 Place project files into `/home/$USER/apache-php` directory.
 
-`cd /home/$USER/apache-php`
+```
+# go to project directory
+cd /home/$USER/apache-php
 
-`docker build -t apache-php .`
+# build apache-php docker image
+docker build -t apache-php .
 
-`docker run -d -p 80:8080 --name apache-php apache-php`
+# run apache-php docker container
+docker run -d -p 80:8080 --name apache-php apache-php
+```
 
-## Commands
+## Useful commands
 
 Copy files into apache-php
 ```
