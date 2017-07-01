@@ -1,0 +1,23 @@
+{
+  "name": "bible",
+  "version": "0.0.1",
+  "description": "This is a how to project for learning purposes with little practical outcome.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kambyses/bible"
+  },
+  "authors": [
+    "jevgeni.virves@gmail-u.com"
+  ],
+  "license": "SEE LICENSE IN LICENCE.md",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt":                    "~0.4.1",
+    "grunt-cli":                "~0.1.6",
+    "grunt-shell":              "~2.1.0"
+  }
+}

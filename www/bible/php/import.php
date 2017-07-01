@@ -3,14 +3,20 @@
 error_reporting(E_ALL);
 ini_set("memory_limit", -1);
 
+//echo "ok";exit;
 date_default_timezone_set ("Europe/Tallinn");
 
 header("Content-Type: text/plain; charset=utf-8");
 
-$conn_string = "host=172.17.0.2 port=5432 dbname=bible user=postgres password=78EFGqpoiuytrewq";
+$conn_string = "host=172.17.0.3 port=5432 dbname=bible user=postgres password=78EFGqpoiuytrewq";
 pg_connect($conn_string);
 
+$sql = pg_query("select count(*) from bible");
+$row = pg_fetch_all($sql);
+print_r($row);
 
+echo "OK";
+exit;
 
 
 $bible = file_get_contents("bible.txt");
