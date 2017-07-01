@@ -13,12 +13,30 @@ This is a _how to_ project for learning purposes with little practical outcome.
 
 ## Environment
 
-* Windows 10 Home 64-bit
-* VMWare Workstation 12 Player https://www.vmware.com/products/player/playerpro-evaluation.html
-* Ubuntu 16.04 LTS https://www.ubuntu.com/download/desktop
-* Docker https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04
-* Apache + PHP 5.6.30 https://hub.docker.com/_/php/
-* PostgreSQL 9 + PostGIS  https://hub.docker.com/r/mdillon/postgis/
+* `Windows 10 Home`  \
+  _64-bit operating system, x64-based processor_ \
+  _AMD Ryzen 5 1600 Six-Core Processor_ \
+  _32 GB RAM_
+* `VMWare Workstation 12 Player` \
+  _https://www.vmware.com/products/player/playerpro-evaluation.html_
+* `GIT` \
+  _https://git-for-windows.github.io/_
+* `TortoiseGit` \
+  _https://tortoisegit.org/_
+* `Ubuntu 16.04 LTS` \
+  _https://www.ubuntu.com/download/desktop_
+* `Docker` \
+  _https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04_
+* `Apache`+`PHP 5.6.30` \
+  _https://hub.docker.com/_/php/_
+* `PostgreSQL 9`+`PostGIS` \
+  _https://hub.docker.com/r/mdillon/postgis/_
+* `pgAdmin` \
+  _https://hub.docker.com/r/fenglc/pgadmin4/_
+* `Node.js`+`NPM` \
+  _https://nodejs.org/_
+* `Grunt` \
+  _https://gruntjs.com/_
 
 
 ## Installations, tutorials, usage
