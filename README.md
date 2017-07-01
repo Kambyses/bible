@@ -97,19 +97,3 @@ docker inspect postgresql
 # username:  Config -> Env -> POSTGRES_USER
 # password:  Config -> Env -> POSTGRES_PASSWORD
 ```
-
-* What's my database port?
-```
-# Inspect postgresql
-docker inspect postgresql
-
-# find parameter: NetworkSettings -> Ports
-```
-
-* What's my database username?
-```
-# Inspect postgresql
-docker inspect postgresql
-
-# find parameter: Config -> Env -> POSTGRES_USER
-```
