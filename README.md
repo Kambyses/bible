@@ -6,6 +6,7 @@ This is a _how to_ project for learning purposes with little practical outcome.
 * How to setup virtual machine on a Windows 10 with Ubuntu 16.
 * How to share files and folder between Windows host and Ubuntu virtual machine.
 * How to setup web server Apache + PHP + PostgreSQL on Ubuntu with Docker.
+* How to work on your project on Windows host while it's running on Ubuntu virtual machine.
 * How to import data from text file to database.
 
 
