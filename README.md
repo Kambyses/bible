@@ -85,7 +85,7 @@ docker inspect apache-php
 # Port:       HostConfig -> PortBindings -> HostPort
 ```
 
-* What's my database address, port, database name, username and password?
+* What's my database host, port, name, user and password?
 ```
 # Inspect postgresql
 docker inspect postgresql
