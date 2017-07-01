@@ -29,13 +29,7 @@ Bible from http://www.gasl.org/refbib/Bible_King_James_Version.pdf
 * Setup VMWare virtual machine.
 * Install Ubuntu 16.04 on virtual machine.
 * Create project folder on Windows
-* Share this folder to Ubuntu: VMPlayer vm Settings > Options > Shared Folders
-** `sudo apt-get update`
-** `sudo apt-get upgrade`
-** `sudo ./vmware-install.pl -d`
-** Check folder existents on Ubuntu `vmware-hgfsclient`
-** Config shared folder access `sudo vmware-config-tools.pl`
-** Check folder visibility `ls /mnt/hgfs/` 
+* [Share this folder to Ubuntu](help/03. Sharing between Windows host and Ubuntu VM.md)
 * Install Docker on Ubuntu.
 * Place project files into Ubuntu `/home/$USER/apache-php` directory.
 * Install Apache + PHP + PostgreSQL on Ubuntu:
