@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a _how to_ project for learning purposes.
+This is a _how to_ project for learning purposes with little practical outcome.
 * How to setup virtual machine on a Windows 10 with Ubuntu 16.
 * How to setup web server Apache + PHP + PostgreSQL on Ubuntu with Docker.
 * How to import data from text file to database.
