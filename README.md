@@ -25,6 +25,8 @@ Bible from http://www.gasl.org/refbib/Bible_King_James_Version.pdf
 
 ## Setting up Apache + PHP + PostgreSQL environment with Docker
 
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+
 * Install VMWare Workstation 12 Player.
 * Setup VMWare virtual machine.
 * Install Ubuntu 16.04 on virtual machine.
