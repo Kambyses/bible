@@ -20,10 +20,6 @@ This is a _how to_ project for learning purposes with little practical outcome.
 * PostgreSQL 9 + PostGIS  https://hub.docker.com/r/mdillon/postgis/
 
 
-## Data
-
-Bible from http://www.gasl.org/refbib/Bible_King_James_Version.pdf
-
-## Installation, tutorials, usage
+## Installations, tutorials, usage
 
 Detailed step-by-step instructions are listed in [help directory](help/01.Index.md).
