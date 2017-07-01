@@ -23,4 +23,6 @@ This is a _how to_ project for learning purposes with little practical outcome.
 
 Bible from http://www.gasl.org/refbib/Bible_King_James_Version.pdf
 
-## [Installation, tutorials, usage](help/01.Index.md)
+## Installation, tutorials, usage
+
+Detailed step-by-step instructions are listed in [help directory](help/01.Index.md).
