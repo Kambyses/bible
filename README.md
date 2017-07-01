@@ -3,6 +3,7 @@
 ## Description
 
 This is a _how to_ project for learning purposes with little practical outcome.
+* _[How to](help/)_ on `Windows 10` set up your project directory and tools.
 * _[How to](help/)_ on `Windows 10` set up a virtual machine running `Ubuntu 16`.
 * _[How to](help/)_ share files and folders between `Windows host` and `Ubuntu virtual machine`.
 * _[How to](help/)_ on `Ubuntu virtual machine` setup web server `Apache`+`PHP`+`PostgreSQL`+`pgAdmin` with `Docker`.
