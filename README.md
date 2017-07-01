@@ -7,6 +7,7 @@ This is a _how to_ project for learning purposes.
 * How to setup web server Apache + PHP + PostgreSQL on Ubuntu with Docker.
 * How to import data from text file to database.
 
+
 ## Environment
 
 * Windows 10 Home 64-bit
@@ -44,11 +45,6 @@ docker run -d -p 80:8080 --name apache-php apache-php
 docker run --name postgresql -e POSTGRES_PASSWORD=mysecretpassword -d mdillon/postgis
 ```
 
-## Usage
-
-
-
-
 ## Useful commands
 
 ```
@@ -75,4 +71,51 @@ docker rm apache-php
 
 # Remove apache-php docker image
 docker rmi apache-php
+```
+
+## Usage
+
+* What's my web address and port?
+```
+# Inspect apache-php
+docker inspect apache-php
+
+# locate parameters:
+# IP aadress: HostConfig -> PortBindings -> HostIp  or  NetworkSettings -> Networks -> bridge -> IPAddress
+# Port:       HostConfig -> PortBindings -> HostPort
+```
+
+* What's my web port number?
+```
+# You defined it in docker run command
+docker run -d -p 80:8080 --name apache-php apache-php
+```
+
+* What's my database address, port, database name, username and password?
+```
+# Inspect postgresql
+docker inspect postgresql
+
+# locate parameters:
+# host:      NetworkSettings -> Networks -> bridge -> IPAddress
+# port:      NetworkSettings -> Ports
+# database:  Config -> Env -> POSTGRES_DB
+# username:  Config -> Env -> POSTGRES_USER
+# password:  Config -> Env -> POSTGRES_PASSWORD
+```
+
+* What's my database port?
+```
+# Inspect postgresql
+docker inspect postgresql
+
+# find parameter: NetworkSettings -> Ports
+```
+
+* What's my database username?
+```
+# Inspect postgresql
+docker inspect postgresql
+
+# find parameter: Config -> Env -> POSTGRES_USER
 ```
