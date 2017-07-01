@@ -7,9 +7,8 @@
 * VMWare Workstation 12 Player https://www.vmware.com/products/player/playerpro-evaluation.html
 * Ubuntu 16.04 LTS https://www.ubuntu.com/download/desktop
 * Docker https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04
-* Apache
-* PHP 5.6.30
-* PostgreSQL 9 + PostGIS
+* Apache + PHP 5.6.30 https://hub.docker.com/_/php/
+* PostgreSQL 9 + PostGIS  https://hub.docker.com/r/mdillon/postgis/
 
 
 ## Data
@@ -19,11 +18,12 @@ Bible from http://www.gasl.org/refbib/Bible_King_James_Version.pdf
 
 ## Setting up Apache + PHP + PostgreSQL environment with Docker
 
-* Install VMWare Workstation 12 Player
-* Setup VMWare virtual machine
-* Install Ubuntu 16.04 on virtual machine
-* Install Docker on Ubuntu
-* Place project files into `/home/$USER/apache-php` directory.
+* Install VMWare Workstation 12 Player.
+* Setup VMWare virtual machine.
+* Install Ubuntu 16.04 on virtual machine.
+* Install Docker on Ubuntu.
+* Place project files into Ubuntu `/home/$USER/apache-php` directory.
+* Install Apache + PHP + PostgreSQL on Ubuntu:
 ```
 # go to project directory
 cd /home/$USER/apache-php
