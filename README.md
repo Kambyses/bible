@@ -19,9 +19,10 @@ Bible from http://www.gasl.org/refbib/Bible_King_James_Version.pdf
 
 ## Setting up Apache + PHP + PostgreSQL environment with Docker
 
-* VMWare Workstation 12 Player
-* Setup virtual machine + Ubuntu 16.04
-* Install Docker
+* Install VMWare Workstation 12 Player
+* Setup VMWare virtual machine
+* Install Ubuntu 16.04 on virtual machine
+* Install Docker on Ubuntu
 * Place project files into `/home/$USER/apache-php` directory.
 ```
 # go to project directory
