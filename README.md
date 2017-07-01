@@ -23,3 +23,29 @@ Place project files into `/home/$USER/apache-php` directory.
 `docker build -t apache-php .`
 
 `docker run -d -p 80:8080 --name apache-php apache-php`
+
+## Commands
+
+Copy files into apache-php
+```
+// Copy files into apache-php
+docker cp -a /home/$USER/apache-php/www/ apache-php:/var/www/html/
+
+// Stop apache-php
+docker stop apache-php
+
+// Start apache-php
+docker start apache-php
+
+// Inspect apache-php
+docker inspect apache-php
+
+// List docker containers
+docker ps -a
+
+// Remove apache-php docker container
+docker rm apache-php
+
+// Remove apache-php docker image
+docker rmi apache-php
+```
